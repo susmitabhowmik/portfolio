@@ -18,7 +18,7 @@ module.exports = {
         fonts: [
           {
             family: `Julius Sans One`,
-            variants: [`400`, `700`]
+            variants: [`400`]
           },
           {
             family: `Monda`,

@@ -58,6 +58,7 @@
     @import "./elements/body";
     @import "./elements/images";
     @import "./elements/links";
+    @import "./elements/p";
 // =====================================================================
 // 5. Objects
 //    Class-based selectors which define undecorated design patterns,
@@ -71,6 +72,7 @@
 
     @import "./components/header";
     @import "./components/flip-box";
+    @import "./components/_homepage-wrapper";
 // =====================================================================
 // 7. Vendors
 //    Whenever third party styles are needed add them to this section,
@@ -83,3 +85,5 @@
 // 8. Utilities
 //    Utilities and helper classes with ability to override anything
 //    which goes before in the triangle, eg. hide helper class
+
+    @import "./utilities/homepage";

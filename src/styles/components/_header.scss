@@ -1,0 +1,28 @@
+header {
+    color: white;
+    padding: 0.3rem;
+    text-align: center;
+    background-color: $wine;
+    margin-bottom: 2rem;
+    font-size: 0.7rem;
+
+    @media (min-width:600px) {
+        font-size: 1rem;
+    }
+
+    @media (min-width:1020px) {
+        font-size: 1.5rem;
+    }
+}
+
+.header__link {
+    color: white;
+
+    &:vistied{
+        color: white;
+    }
+
+    &:hover, &:active {
+        color: $sandy-beach;
+    }
+}

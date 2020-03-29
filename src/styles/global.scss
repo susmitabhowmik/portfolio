@@ -29,6 +29,9 @@
 //    If using features such as custom properties, those that are global
 //    custom properties should be described in this section.
 
+    @import "./settings/fonts";
+    @import "./settings/colors";
+
 
 // =====================================================================
 // 2. Tools
@@ -51,7 +54,10 @@
 //    Styling for bare HTML elements (like H1, A, etc.). These come with
 //    default styling from the browser so we can redefine them here.
 
-    @import "./elements/header";
+    @import "./elements/headers";
+    @import "./elements/body";
+    @import "./elements/images";
+    @import "./elements/links";
 // =====================================================================
 // 5. Objects
 //    Class-based selectors which define undecorated design patterns,
@@ -63,6 +69,8 @@
 //    Specific UI components. This is where majority of our work takes place
 //    and our UI components are often composed of Objects and Components
 
+    @import "./components/header";
+    @import "./components/flip-box";
 // =====================================================================
 // 7. Vendors
 //    Whenever third party styles are needed add them to this section,

@@ -1,0 +1,32 @@
+.footer {  
+    text-align: center;
+    &__copywrite {
+        text-align: left;
+    }  
+
+    &__contact {
+        color: white;
+        margin-right: 5rem;
+    }
+
+    &__link {
+        color: white;
+
+        &:vistied{
+            color: white;
+        }
+        
+         &:hover, &:active {
+            color: $wine;
+        }
+    }
+
+    &__image{
+        margin-right: 2rem;
+        float: right;
+        width: 1.3rem;
+        height: 1.3rem;
+        background-color: white;
+    }
+
+}

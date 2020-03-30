@@ -2,7 +2,7 @@ header {
     color: white;
     padding: 0.3rem;
     text-align: center;
-    background-color: $wine;
+    background-color: $something-blue;
     margin-bottom: 2rem;
     font-size: 0.7rem;
 
@@ -11,7 +11,7 @@ header {
     }
 
     @media (min-width:1020px) {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -23,6 +23,6 @@ header {
     }
 
     &:hover, &:active {
-        color: $sandy-beach;
+        color: $wine;
     }
 }

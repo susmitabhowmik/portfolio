@@ -1,11 +1,17 @@
 .flip-box {
     background-color: transparent;
-    width: 13.5rem;
-    height: 15rem;
+    width: 9rem;
+    height: 10rem;
     perspective: 1000px;
     margin-left: 3rem;
+    margin-bottom: 2rem;
     border-radius: 45%;
     float: right;
+
+    @media (min-width:600px) {
+        width: 13.5rem;
+        height: 15rem;
+    }
 
     &--inner {
         position: relative;

@@ -59,6 +59,7 @@
     @import "./elements/images";
     @import "./elements/links";
     @import "./elements/p";
+    @import "./elements/footer";
 // =====================================================================
 // 5. Objects
 //    Class-based selectors which define undecorated design patterns,
@@ -72,7 +73,9 @@
 
     @import "./components/header";
     @import "./components/flip-box";
-    @import "./components/_homepage-wrapper";
+    @import "./components/homepage-wrapper";
+    @import "./components/footer";
+
 // =====================================================================
 // 7. Vendors
 //    Whenever third party styles are needed add them to this section,

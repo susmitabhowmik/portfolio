@@ -1,5 +1,9 @@
 import React from "react";
-import GithubImage from "../images/github.svg";
+import GithubSVG from "../images/github.svg";
+import CodepenSVG from "../images/codepen.svg";
+import LinkedInSVG from "../images/linkedin.svg";
+
+
 
 const Footer = ({ siteTitle }) => (
     <footer>
@@ -10,10 +14,12 @@ const Footer = ({ siteTitle }) => (
             <a class="footer__link" href="mailto:susmita.bhowmik516@gmail.com">&#x2709; susmita.bhowmik516@gmail.com </a>
         </div>
         <div class="footer__copywrite">
-            © Susmita 2020, Built with
+            Built by Susmita using
         {` `}
             <a href="https://www.gatsbyjs.org" class="footer__link">Gatsby</a>
-            <a alt="GitHub profile" href="https://github.com/susmitabhowmik"><img class="footer__image" src={GithubImage}></img></a>
+            <a alt="GitHub profile" href="https://github.com/susmitabhowmik"><img class="footer__image" src={GithubSVG}></img></a>
+            <a alt="Codepen profile" href="https://codepen.io/susmitabhowmik"><img class=" footer__image" src={CodepenSVG}></img></a>
+            <a alt="GitHub profile" href="https://www.linkedin.com/in/susmita-bhowmik/"><img class="footer__image" src={LinkedInSVG}></img></a>
         </div>
 
     </footer >

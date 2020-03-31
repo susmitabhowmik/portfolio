@@ -73,8 +73,9 @@
 
     @import "./components/header";
     @import "./components/flip-box";
-    @import "./components/homepage-wrapper";
+    @import "./components/wrapper";
     @import "./components/footer";
+    @import "./components/codepen";
 
 // =====================================================================
 // 7. Vendors
@@ -90,3 +91,4 @@
 //    which goes before in the triangle, eg. hide helper class
 
     @import "./utilities/homepage";
+    @import "./utilities/projects";

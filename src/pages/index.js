@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Susmita Bhowmik" />
-    <div class="homepage-wrapper">
+    <div class="wrapper">
       <div class="flip-box">
         <div class="flip-box--inner">
           <div class="flip-box--front">

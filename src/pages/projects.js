@@ -15,7 +15,7 @@ export default () => (
 
       <div class="project">
         <div class="project__item">
-          <img alt="image of project called 'whatever'" src={whatever}></img>
+          <img alt="project called 'whatever'" src={whatever}></img>
         </div>
         <div class="project__item project__item--desc">
           <h3>Description</h3>

@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import SusmitaBitmoji from "../images/bitmoji_susmita.jpg"
 import Susmita from "../images/susmita.jpg"
 

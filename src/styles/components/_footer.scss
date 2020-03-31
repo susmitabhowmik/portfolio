@@ -22,8 +22,9 @@
     }
 
     &__image{
+        justify-content: center;
         margin-right: 2rem;
-        float: right;
+        margin-bottom: 0.7rem;
         width: 1.3rem;
         height: 1.3rem;
         background-color: white;

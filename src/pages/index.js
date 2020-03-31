@@ -12,10 +12,10 @@ const IndexPage = () => (
       <div class="flip-box">
         <div class="flip-box--inner">
           <div class="flip-box--front">
-            <img src={SusmitaBitmoji} alt="cartoon picuture of me"></img>
+            <img class="flip-box--img" src={SusmitaBitmoji} alt="cartoon picuture of me"></img>
           </div>
           <div class="flip-box--back">
-            <img src={Susmita} alt="picuture of me"></img>
+            <img class="flip-box__img" src={Susmita} alt="picuture of me"></img>
           </div >
         </div >
       </div >

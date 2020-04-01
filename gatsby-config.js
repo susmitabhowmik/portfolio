@@ -18,8 +18,9 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Julius Sans One`,
-          `Monda`,
+          `Roboto Condensed`,
+          `Cabin`,
+          `Roboto`,
           `source sans pro\:400, 700`
         ]
       },

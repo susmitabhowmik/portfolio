@@ -1,6 +1,6 @@
 header {
     color: white;
-    padding: 0.3rem;
+    padding: 1rem;
     text-align: center;
     background-color: $something-blue;
     margin-bottom: 2rem;
@@ -23,6 +23,6 @@ header {
     }
 
     &:hover, &:active {
-        color: $wine;
+        text-decoration: underline;
     }
 }

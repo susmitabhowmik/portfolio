@@ -26,6 +26,7 @@ export default () => (
           <h4>Technology Used</h4>
           <p><span class="project__item--title">Front End:</span> Vue.js, CSS, HTMl, MapBox API, JavaScript </p>
           <p><span class="project__item--title">Back End:</span> Ruby on Rails, Google Maps API, Ticketmaster API, Eventbrite API</p>
+          <a href="https://whatever-app.herokuapp.com/">Click here to try out Whatever!</a>
         </div>
       </div>
 

@@ -5,6 +5,7 @@ module.exports = {
     author: `Susmita Bhowmik`,
   },
   plugins: [
+    `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
@@ -12,9 +13,17 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `pages`,
+        path: `${__dirname}/src/pages/blog`
       },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [] // just in case those previously mentioned remark plugins sound cool :)
+      }
+    },
+    {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [

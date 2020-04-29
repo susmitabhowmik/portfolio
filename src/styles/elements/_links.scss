@@ -6,3 +6,12 @@ a:not([class]){
     text-decoration: underline;
   }
 }
+
+a {
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

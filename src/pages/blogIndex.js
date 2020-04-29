@@ -9,14 +9,13 @@ import Layout from "../components/layout";
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark
   return (
-    <div className="blog-posts">
-      {posts
-        .filter(post => post.node.frontmatter.title.length > 0)
-        .map(({ node: post }) => {
-          return (
-            <Layout>
+    <Layout>
+      <div className="blog-posts">
+        {posts
+          .filter(post => post.node.frontmatter.title.length > 0)
+          .map(({ node: post }) => {
+            return (
               <div class="wrapper">
-
                 <div className="blog-post-preview" key={post.id}>
                   <h1>
                     <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
@@ -25,10 +24,10 @@ export default function Index({ data }) {
                   <p>{post.excerpt}</p>
                 </div>
               </div>
-            </Layout>
-          )
-        })}
-    </div>
+            )
+          })}
+      </div>
+    </Layout>
   )
 }
 

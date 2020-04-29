@@ -13,16 +13,14 @@ header {
     @media (min-width:1020px) {
         font-size: 1.3rem;
     }
-}
 
-.header__link {
+    &__link {
     color: white;
+    text-decoration: none;
 
-    &:vistied{
-        color: white;
-    }
-
-    &:hover, &:active {
+    &:hover {
         text-decoration: underline;
     }
 }
+}
+

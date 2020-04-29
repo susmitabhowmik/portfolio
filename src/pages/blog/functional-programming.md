@@ -1,7 +1,7 @@
 ---
 path: "/functional-programming"
 date: 2020-02-07T17:12:33.962Z
-title: "Shell Scripting And Dotfiles"
+title: "Functional Programming"
 ---
 
 For our past two sprints we have focused on functional programming. Here are the things I have learned these past two sprints.

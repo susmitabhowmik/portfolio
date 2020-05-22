@@ -22,7 +22,7 @@ const IndexPage = () => (
       <h2 class="homepage__header">About Me</h2>
       <p>
         I am a full-stack web developer who is constantly working to get better at my craft. Currently, I work as an apprentice at a web development company called Sparkbox, learning as much as I can.
-        Outside of Sparkbox, I am completing NYU's Bridge to Tandon program to gain acceptance to NYU's masters in computer science program. Prior to working as a developer, I had worked as an elementary
+        Outside of Sparkbox, I am completing NYU's Bridge to Tandon program to improve my understanding of fundamental computer science concepts such as data structures, algorithms, operating systems, and discrete mathematics. Prior to working as a developer, I had worked as an elementary
         school teacher. I use my skills gained from working as a teacher such as breaking down problems, communicating, and patience to make me a better software developer. When I am not coding, I spend my time reading, traveling, and
         drinking lots of coffee.
       </p>

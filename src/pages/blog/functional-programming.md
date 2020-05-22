@@ -17,8 +17,3 @@ For our past two sprints we have focused on functional programming. Here are the
 1. Squashing commits and rebasing interactively is an awesome tool (git rebase -i master)
 1. Writing and setting up tests in js using mocha and chai so that I know when things break
 1. path.join(__dirname, filename) will concatenate directory and file to path
-
-Things I am working on:
-1. Naming things better
-1. Asking other devs what they are working on rather than focusing on just the questions I have 
-1. Walking through and explaining code to others 

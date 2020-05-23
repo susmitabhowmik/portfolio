@@ -1,6 +1,6 @@
-a:not([class]){
+a:not([class]) {
   text-decoration: none;
-  color: $wine;
+  color: $accent-color;
 
   &:hover {
     text-decoration: underline;

@@ -2,7 +2,6 @@ import Layout from "../components/layout";
 import React from "react";
 import SEO from "../components/seo";
 import whatever from "../images/whatever.jpg";
-import tapfiller from "../images/Tap_filler_summer.png"
 
 export default () => (
   <Layout>
@@ -32,9 +31,6 @@ export default () => (
 
       <div class="project">
         <h3>Tap Filler</h3>
-        <div class="project__item">
-          <img alt="project called tap filler" src={tapfiller}></img>
-        </div>
         <div class="project__item project__item--desc">
           <h4>Description</h4>
           <p>Tap filler is a web application which consists of a searchable database of beers given a matching keyword. This project was built for a client with the goal of helping restaurants keep track of their beer inventory and sales, as well as to help connect restaurants to beer distributors.</p>

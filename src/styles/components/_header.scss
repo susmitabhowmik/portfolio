@@ -1,23 +1,23 @@
 header {
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    background-color: $something-blue;
-    margin-bottom: 2rem;
-    font-size: 0.7rem;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  background-color: $bg-color;
+  margin-bottom: 2rem;
+  font-size: 0.7rem;
 
-    @media (min-width:600px) {
-        font-size: 1rem;
-    }
+  @media (min-width: 600px) {
+    font-size: 1rem;
+  }
 
-    @media (min-width:1020px) {
-        font-size: 1.3rem;
-    }
-
-    &__links {
-        display: flex;
-        justify-content: space-evenly;
-    }
+  @media (min-width: 1020px) {
+    font-size: 1.3rem;
+  }
 }
 
-
+.header {
+  &__links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

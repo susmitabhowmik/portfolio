@@ -1,6 +1,5 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { graphQL } from "gatsby";
 import Layout from "../components/layout";
 
 // import '../css/blog-post.css'; // make it pretty!

@@ -1,15 +1,21 @@
-.wrapper{
-  margin: 0.7rem 1.2rem;
+.wrapper {
+  background-color: $secondary-color;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 0 2rem 2rem;
 
-  @media (min-width:600px) {
-    margin: 2rem 5rem;
+  @media (min-width: 600px) {
+    margin: 0rem 6rem 2rem;
   }
 
-  @media (min-width:900px) {
-    margin: 2rem 10rem;
+  @media (min-width: 1100px) {
+    margin: 0rem 10rem 4rem;
+  }
+  @media (min-width: 1450px) {
+    margin: 0rem 15rem 4rem;
   }
 
-  @media (min-width:1200px) {
-    margin: 2rem 25rem;
+  @media (min-width: 1750px) {
+    margin: 0rem 20rem 4rem;
   }
 }

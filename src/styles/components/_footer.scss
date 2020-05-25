@@ -1,17 +1,9 @@
 .footer {
   text-align: center;
-  &__copywrite {
-    text-align: left;
-  }
-
   &__link {
-    color: white;
+    color: $secondary-color;
     line-height: 3rem;
-
-    &:vistied {
-      color: white;
-    }
-
+    justify-content: center;
     &:hover,
     &:active {
       text-decoration: underline;

@@ -13,36 +13,19 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Susmita Bhowmik" />
-    <div class="wrapper">
-      <div class="flip-box">
-        <div class="flip-box--inner">
-          <div class="flip-box--front">
-            <img
-              class="flip-box--img"
-              src={SusmitaBitmoji}
-              alt="cartoon picuture of me"
-            ></img>
-          </div>
-          <div class="flip-box--back">
-            <img class="flip-box__img" src={Susmita} alt="picuture of me"></img>
-          </div>
-        </div>
+    <div class="main-content">
+      <div class="wrapper">
+        <h2 class="homepage__header">About Me</h2>
+        <p>
+          Hey there! I'm Susmita. I am an educator turned software developer who
+          is passionate about writing clean, modular, and accessible code. I
+          love being able to utilize both logic and creativity to build and
+          learn new things. While I am not tinkering with code, I enjoy playing
+          board games, exploring new places, and discovering new foods.
+        </p>
       </div>
-      <h2 class="homepage__header">About Me</h2>
-      <p>
-        I am a full-stack web developer who is constantly working to get better
-        at my craft. Currently, I work as an apprentice at a web development
-        company called Sparkbox, learning as much as I can. Outside of Sparkbox,
-        I am completing NYU's Bridge to Tandon program to improve my
-        understanding of fundamental computer science concepts such as data
-        structures, algorithms, operating systems, and discrete mathematics.
-        Prior to working as a developer, I had worked as an elementary school
-        teacher. I use my skills gained from working as a teacher such as
-        breaking down problems, communicating, and patience to make me a better
-        software developer. When I am not coding, I spend my time reading,
-        traveling, and drinking lots of coffee.
-      </p>
-
+    </div>
+    <div class="wrapper">
       <h2 class="homepage__header">Let's connect!</h2>
       <div class="homepage__contact">
         <a href="https://github.com/susmitabhowmik">

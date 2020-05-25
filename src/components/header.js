@@ -2,9 +2,8 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <h1>I'm Susmita, a software developer.</h1>
     <div class="header__links">
-      <a href="/" class="header__link">
+      <a href="/" class="header__link header__link--home">
         Home
       </a>
       <a href="/projects/" class="header__link">

@@ -15,36 +15,27 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages/blog`
+        path: `${__dirname}/src/pages/blog`,
       },
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
-        plugins: [] // just in case those previously mentioned remark plugins sound cool :)
-      }
+        plugins: [], // just in case those previously mentioned remark plugins sound cool :)
+      },
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Roboto Condensed`,
-          `Cabin`,
-          `Roboto`,
-          `source sans pro\:400, 700`
-        ]
+          `Alice`,
+          `Playfair Display`,
+          `source sans pro\:400, 700, 900, 400i, 700i, 900i`,
+        ],
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`
-      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

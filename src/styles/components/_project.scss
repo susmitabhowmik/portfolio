@@ -1,17 +1,17 @@
 .project {
-    min-width: 100%;
-    display: flex;
-    margin-bottom: 2rem;
-    flex-wrap: wrap;
+  min-width: 100%;
+  display: flex;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
 
-    &__pen {
-      min-height: 25rem;
-    }
+  &__pen {
+    min-height: 25rem;
+  }
 
   &__item {
     min-width: 100%;
 
-    &--title{
+    &--title {
       text-decoration: underline;
     }
 

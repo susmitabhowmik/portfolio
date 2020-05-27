@@ -104,7 +104,7 @@ export default () => (
             and it is up to you to stop them by guessing the codeword in time!
           </p>
           <p>Ruby, RSpec</p>
-          <a class="button" href="https://github.com/susmitabhowmik/UFO_Game">
+          <a class="button" href="https://github.com/susmitabhowmik/UFO_Game y">
             <img
               alt="View responsive grid project"
               class="project__image"

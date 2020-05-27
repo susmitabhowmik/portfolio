@@ -1,81 +1,117 @@
 import Layout from "../components/layout"
 import React from "react"
 import SEO from "../components/seo"
-import whatever from "../images/whatever.jpg"
+import ArrowSVG from "../images/arrow.svg"
 
 export default () => (
   <Layout>
     <SEO title="Susmita Bhowmik" />
     <div class="main-content">
-      <div class="wrapper">
-        <h2 class="projects__header">Projects</h2>
-        <h3>Responsive Grid</h3>
-        <iframe
-          class="project project__pen"
-          scrolling="no"
-          title="Responsive Layout Restaurant Card"
-          src="https://codepen.io/susmitabhowmik/embed/OJVvxBP?height=263&theme-id=dark&default-tab=css,result&editable=true"
-          frameborder="no"
-          allowtransparency="true"
-          allowfullscreen="true"
-        >
-          See the Pen{" "}
-          <a href="https://codepen.io/susmitabhowmik/pen/OJVvxBP">
-            Responsive Layout Restaurant Card
-          </a>{" "}
-          by Susmita Bhowmik (
-          <a href="https://codepen.io/susmitabhowmik">@susmitabhowmik</a>) on{" "}
-          <a href="https://codepen.io">CodePen</a>.
-        </iframe>
-
-        <div class="project">
-          <h3>Whatever</h3>
-          <div class="project__item">
-            <img alt="project called 'whatever'" src={whatever}></img>
-          </div>
-          <div class="project__item project__item--desc">
-            <h4>Description</h4>
-            <p>
-              Whatever is an app for indecisive people. Decide what to do or
-              where to eat near you by typing in your address, distance you are
-              willing to travel, and date/time restrictions. This app was
-              created as my capstone project for Actualize.
-            </p>
-            <h4>Technology Used</h4>
-            <p>
-              <span class="project__item--title">Front End:</span> Vue.js, CSS,
-              HTMl, MapBox API, JavaScript{" "}
-            </p>
-            <p>
-              <span class="project__item--title">Back End:</span> Ruby on Rails,
-              Google Maps API, Ticketmaster API, Eventbrite API
-            </p>
-          </div>
-          <a href="https://whatever-app.herokuapp.com/">
-            Click here to try out Whatever!
+      <div class="project-grid">
+        <div class="wrapper project">
+          <h3>Sparkeats</h3>
+          <p>
+            Sparkeats is a restaurant review site where Sparkboxers review
+            restaurants. During my time at Sparkbox, I worked as part of a team
+            utilizing agile methodology to inplement a redesign for the site on
+            the frontend. I also worked on the backend to refactor legacy code,
+            write tests, and fix bugs.
+          </p>
+          <p>
+            Node.js, Sails.js, SQL, Ramda.js, Mocha, Chai, Sinon, HTML, SCSS,
+            BEM
+          </p>
+          <a class="button" href="https://eats.seesparkbox.com/refresh">
+            <img
+              alt="View responsive grid project"
+              class="project__image"
+              src={ArrowSVG}
+            ></img>
+            View Project
           </a>
         </div>
 
-        <div class="project">
-          <h3>Tap Filler</h3>
-          <div class="project__item project__item--desc">
-            <h4>Description</h4>
-            <p>
-              Tap filler is a web application which consists of a searchable
-              database of beers given a matching keyword. This project was built
-              for a client with the goal of helping restaurants keep track of
-              their beer inventory and sales, as well as to help connect
-              restaurants to beer distributors.
-            </p>
-            <h4>Technology Used</h4>
-            <p>
-              <span class="project__item--title">Front End:</span> Vue.js, CSS,
-              HTMl{" "}
-            </p>
-            <p>
-              <span class="project__item--title">Back End:</span> Ruby on Rails{" "}
-            </p>
-          </div>
+        <div class="wrapper project">
+          <h3>Whatever</h3>
+          <p>
+            Whatever is an app for indecisive people. I created it as my
+            capstone project for Actualize. It helps users decide what to do or
+            where to eat by choosing a random event or a restaurant based on the
+            given address address, radius, and date/time restrictions. Users are
+            also able to filter their search results by price, and view
+            directions to their destination.
+          </p>
+          <p>
+            Vue.js, CSS, HTMl, MapBox API, JavaScript, Ruby on Rails, Google
+            Maps API, Ticketmaster API
+          </p>
+          <a class="button" href="https://whatever-app.herokuapp.com/">
+            <img
+              alt="View responsive grid project"
+              class="project__image"
+              src={ArrowSVG}
+            ></img>
+            View Project
+          </a>
+        </div>
+
+        <div class="wrapper project">
+          <h3>Responsive Grid</h3>
+          <p>
+            As part of the Full Stack Apprenticeship at Sparkbox, I collaborated
+            with a designer to bring their mockup to life, creating an
+            accessible card with semantic HTML and BEM naming conventions.
+          </p>
+          <p>HTML, CSS, SCSS, BEM</p>
+          <a
+            class="button"
+            href="https://codepen.io/susmitabhowmik/pen/OJVvxBP"
+          >
+            <img
+              alt="View responsive grid project"
+              class="project__image"
+              src={ArrowSVG}
+            ></img>
+            View Project
+          </a>
+        </div>
+
+        <div class="wrapper project">
+          <h3>Ant vs. Doodlebug</h3>
+          <p>
+            This was a project I created for a homework assignment through NYU.
+            It is a predator-prey simulation created in C++ to showcase my
+            understanding of object-oriented programming and pointers.
+          </p>
+          <p>C++</p>
+          <a
+            class="button"
+            href="https://github.com/susmitabhowmik/ant-vs-doodlebug"
+          >
+            <img
+              alt="View responsive grid project"
+              class="project__image"
+              src={ArrowSVG}
+            ></img>
+            View Project
+          </a>
+        </div>
+
+        <div class="wrapper project">
+          <h3>UFO Game</h3>
+          <p>
+            This is a terminal based game written in Ruby. Aliens are invading
+            and it is up to you to stop them by guessing the codeword in time!
+          </p>
+          <p>Ruby, RSpec</p>
+          <a class="button" href="https://github.com/susmitabhowmik/UFO_Game">
+            <img
+              alt="View responsive grid project"
+              class="project__image"
+              src={ArrowSVG}
+            ></img>
+            View Project
+          </a>
         </div>
       </div>
     </div>

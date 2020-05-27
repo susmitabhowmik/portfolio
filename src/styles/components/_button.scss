@@ -1,0 +1,12 @@
+.button {
+  justify-content: center;
+  background-color: $button-color;
+  color: black;
+  font-style: italic;
+  padding: 1rem;
+  border-radius: 1rem;
+  &:hover {
+    padding: 1.3rem;
+    text-decoration: none;
+  }
+}

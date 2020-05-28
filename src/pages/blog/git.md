@@ -9,7 +9,7 @@ This week as a part of the Full Stack Apprenticeship at [Sparkbox](https://seesp
 1. Using the merge button on GitHub makes commit history hard to read.
 1. Instead of merging, use `git rebase`. Rebasing will put the branch you want to merge on top of the master branch and add it to the end.
 1. A SHA (a long line of characters associated with a commit message) refers to changes and the parent of a working directory. If the parent changes, the SHA will change.
-1. -ff (fast forward) will take the master branch and point to the next commit. ff-only will only do the action if ff is possible.
+1. Fast forward(`--ff`) will take the master branch and point to the next commit. `--ff-only` will only do the action if fast forward is possible.
 1. Bare git repositories are repositories with no working directory.
 1. Verified commits are commits cryptographically changed by the committer. You can give someone your public GPG key, and they can check that the commit was made using your computer.
 1. You can have a different GPG key per device you are using to push to GitHub.

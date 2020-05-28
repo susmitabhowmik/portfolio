@@ -4,16 +4,39 @@ date: 2020-02-07T17:12:33.962Z
 title: "Functional Programming"
 ---
 
-For our past two sprints we have focused on functional programming. Here are the things I have learned these past two sprints.
+What is functional programming? Several qualities make code functional, and in this blog post, I will try to explain the properties of functional programming.
 
-1. Functional programing is declarative, rather than imperative.
-1. Functional code tries not to change the scope.
-1. Functional programming utilizes pure functions.
-1. Functional programming uses function composition.
-1. Ramda is a utility library for functional programming.
-1. Tail call optimization makes it so the stack can be kept clean (see awesome article : https://hackernoon.com/es6-tail-call-optimization-43f545d2f68b)
-1. You can link to commit SHAs in git
-1. Good code should read like a book
-1. Squashing commits and rebasing interactively is an awesome tool (git rebase -i master)
-1. Writing and setting up tests in js using mocha and chai so that I know when things break
-1. path.join(__dirname, filename) will concatenate directory and file to path
+Functional programming is declarative rather than imperative. Declarative statements tell us what we are doing, whereas imperative statements tell us how we are doing it. For example, "I am baking a cake" is declarative; however, if I told you the recipe to bake a cake, that would be imperative.
+A code example would be:
+
+```
+//declarative code
+function doubleArr (arr) {
+  const doubleArr = arr.map(x => x *2 );
+  return doubleArr;
+}
+
+//imperative code
+function doubleArr(arr) {
+  const newArr = [];
+  let x;
+  for (let i = 0; i < arr.length; i++){
+  	x = arr[i] * 2;
+  	newArr.push(x);
+  }
+  return newArr;
+}
+```
+
+Functional code tries not to change the scope and to avoid globalization. There is a quote from "The Pragmatic Programmer" by Andy Hunt and Dave Thomas, which states, "coupling is the enemy of change because it links together ideas that must change in parallel." There is a delicate balance between keeping code modular and figuring out which parts of the application must communicate for the application to be functional.
+
+Functional programming utilizes pure functions. A pure function is a function that takes in an input and always returns the same output without any side effects. Examples of side-effects are things that modify external variables (i.e., anything which writes to the screen, writes to a file, writes to the network, logs to the console, or calls other functions).
+
+Functional programming also uses function composition. Functional composition combines two or more functions to produce a new function or perform a computation. For example, `f(g(x))` will perform `f(x)` using `g(x)` as the input.
+
+An excellent functional programming library I have been utilizing is Ramda.js. Check it out [here](https://ramdajs.com/)!
+
+Sources and Resources:
+
+- "Composing Software" by Eric Elliot
+- "The Prgamatic Programmer" by Andy Hunt and Dave Thomas

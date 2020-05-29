@@ -17,17 +17,12 @@ export default () => (
             the frontend. I also worked on the backend to refactor legacy code,
             write tests, and fix bugs.
           </p>
-          <p>
+          <p class="project__tech-stack">
             Node.js, Sails.js, SQL, Ramda.js, Mocha, Chai, Sinon, HTML, SCSS,
             BEM
           </p>
           <a class="button" href="https://eats.seesparkbox.com/refresh">
-            <img
-              alt="View responsive grid project"
-              class="project__image"
-              src={ArrowSVG}
-            ></img>
-            View Project
+            Redesigned Sparkeats Site
           </a>
         </div>
 
@@ -41,17 +36,12 @@ export default () => (
             also able to filter their search results by price, and view
             directions to their destination.
           </p>
-          <p>
+          <p class="project__tech-stack">
             Vue.js, CSS, HTMl, MapBox API, JavaScript, Ruby on Rails, Google
             Maps API, Ticketmaster API
           </p>
           <a class="button" href="https://whatever-app.herokuapp.com/">
-            <img
-              alt="View responsive grid project"
-              class="project__image"
-              src={ArrowSVG}
-            ></img>
-            View Project
+            Whatever Site
           </a>
         </div>
 
@@ -62,17 +52,12 @@ export default () => (
             with a designer to bring their mockup to life, creating an
             accessible card with semantic HTML and BEM naming conventions.
           </p>
-          <p>HTML, CSS, SCSS, BEM</p>
+          <p class="project__tech-stack">HTML, CSS, SCSS, BEM</p>
           <a
             class="button"
             href="https://codepen.io/susmitabhowmik/pen/OJVvxBP"
           >
-            <img
-              alt="View responsive grid project"
-              class="project__image"
-              src={ArrowSVG}
-            ></img>
-            View Project
+            Responsive Grid Codepen
           </a>
         </div>
 
@@ -83,17 +68,12 @@ export default () => (
             It is a predator-prey simulation created in C++ to showcase my
             understanding of object-oriented programming and pointers.
           </p>
-          <p>C++</p>
+          <p class="project__tech-stack">C++</p>
           <a
             class="button"
             href="https://github.com/susmitabhowmik/ant-vs-doodlebug"
           >
-            <img
-              alt="View responsive grid project"
-              class="project__image"
-              src={ArrowSVG}
-            ></img>
-            View Project
+            Ant vs. Doodlebug GitHub
           </a>
         </div>
 
@@ -103,14 +83,9 @@ export default () => (
             This is a terminal based game written in Ruby. Aliens are invading
             and it is up to you to stop them by guessing the codeword in time!
           </p>
-          <p>Ruby, RSpec</p>
+          <p class="project__tech-stack">Ruby, RSpec</p>
           <a class="button" href="https://github.com/susmitabhowmik/UFO_Game y">
-            <img
-              alt="View responsive grid project"
-              class="project__image"
-              src={ArrowSVG}
-            ></img>
-            View Project
+            UFO Game GitHub
           </a>
         </div>
       </div>

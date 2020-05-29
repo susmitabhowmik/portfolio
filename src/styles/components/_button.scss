@@ -1,7 +1,7 @@
 .button {
-  justify-content: center;
+  text-align: center;
   background-color: $button-color;
-  color: black;
+  color: $primary-color;
   font-style: italic;
   padding: 1rem;
   border-radius: 1rem;

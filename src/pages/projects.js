@@ -9,7 +9,7 @@ export default () => (
     <div class="main-content">
       <div class="project-grid">
         <div class="wrapper project">
-          <h3>Sparkeats</h3>
+          <h2>Sparkeats</h2>
           <p>
             Sparkeats is a restaurant review site where Sparkboxers review
             restaurants. During my time at Sparkbox, I worked as part of a team
@@ -27,7 +27,7 @@ export default () => (
         </div>
 
         <div class="wrapper project">
-          <h3>Whatever</h3>
+          <h2>Whatever</h2>
           <p>
             Whatever is an app for indecisive people. I created it as my
             capstone project for Actualize. It helps users decide what to do or
@@ -46,7 +46,7 @@ export default () => (
         </div>
 
         <div class="wrapper project">
-          <h3>Responsive Grid</h3>
+          <h2>Responsive Grid</h2>
           <p>
             As part of the Full Stack Apprenticeship at Sparkbox, I collaborated
             with a designer to bring their mockup to life, creating an
@@ -62,7 +62,7 @@ export default () => (
         </div>
 
         <div class="wrapper project">
-          <h3>Ant vs. Doodlebug</h3>
+          <h2>Ant vs. Doodlebug</h2>
           <p>
             This was a project I created for a homework assignment through NYU.
             It is a predator-prey simulation created in C++ to showcase my
@@ -78,7 +78,7 @@ export default () => (
         </div>
 
         <div class="wrapper project">
-          <h3>UFO Game</h3>
+          <h2>UFO Game</h2>
           <p>
             This is a terminal based game written in Ruby. Aliens are invading
             and it is up to you to stop them by guessing the codeword in time!

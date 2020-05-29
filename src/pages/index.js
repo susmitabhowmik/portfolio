@@ -15,7 +15,7 @@ const IndexPage = () => (
     <SEO title="Susmita Bhowmik" />
     <div class="main-content">
       <div class="wrapper">
-        <h2 class="homepage__header">About Me</h2>
+        <h1 class="homepage__header">About Me</h1>
         <p>
           Hey there! I'm Susmita. I am an educator turned software developer who
           is passionate about writing clean, modular, and accessible code. I
@@ -26,7 +26,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div class="wrapper">
-      <h2 class="homepage__header">Let's connect!</h2>
+      <h1 class="homepage__header">Let's connect!</h1>
       <div class="homepage__contact">
         <a href="https://github.com/susmitabhowmik">
           <img

@@ -13,7 +13,7 @@ export default () => (
           <p>
             Sparkeats is a restaurant review site where Sparkboxers review
             restaurants. During my time at Sparkbox, I worked as part of a team
-            utilizing agile methodology to inplement a redesign for the site on
+            utilizing agile methodology to implement a redesign for the site on
             the frontend. I also worked on the backend to refactor legacy code,
             write tests, and fix bugs.
           </p>
@@ -32,12 +32,12 @@ export default () => (
             Whatever is an app for indecisive people. I created it as my
             capstone project for Actualize. It helps users decide what to do or
             where to eat by choosing a random event or a restaurant based on the
-            given address address, radius, and date/time restrictions. Users are
-            also able to filter their search results by price, and view
-            directions to their destination.
+            given address, radius, and date/time restrictions. Users are also
+            able to filter their search results by price, and view directions to
+            their destination.
           </p>
           <p class="project__tech-stack">
-            Vue.js, CSS, HTMl, MapBox API, JavaScript, Ruby on Rails, Google
+            Vue.js, CSS, HTML, MapBox API, JavaScript, Ruby on Rails, Google
             Maps API, Ticketmaster API
           </p>
           <a class="button" href="https://whatever-app.herokuapp.com/">
@@ -84,7 +84,7 @@ export default () => (
             and it is up to you to stop them by guessing the codeword in time!
           </p>
           <p class="project__tech-stack">Ruby, RSpec</p>
-          <a class="button" href="https://github.com/susmitabhowmik/UFO_Game y">
+          <a class="button" href="https://github.com/susmitabhowmik/UFO_Game">
             UFO Game GitHub
           </a>
         </div>

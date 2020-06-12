@@ -1,11 +1,13 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark
   return (
     <Layout>
+      <SEO title="Susmita Bhowmik Blog" />
       <div class="main-content">
         <div className="blog-posts">
           {posts

@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 
 export default () => (
   <Layout>
-    <SEO title="Susmita Bhowmik" />
+    <SEO title="Susmita Bhowmik Projects" />
     <div class="main-content">
       <div class="project-grid">
         <div class="wrapper project">

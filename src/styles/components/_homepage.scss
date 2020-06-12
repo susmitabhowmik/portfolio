@@ -1,11 +1,18 @@
 .homepage {
-  &__header {
-    font-size: 1rem;
+  &__susmita-img {
+    max-width: 10rem;
+    border-radius: 50%;
+    display: block;
+    margin: 1rem auto;
 
-    @media (min-width: 600px) {
-      font-size: 1.5rem;
+    @media (min-width: 411px) {
+      float: right;
+      margin: 1rem;
     }
+  }
 
+  &__header {
+    font-size: 2rem;
     @media (min-width: 1020px) {
       font-size: 2.5rem;
     }
